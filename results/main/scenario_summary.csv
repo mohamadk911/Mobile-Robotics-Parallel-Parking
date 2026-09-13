@@ -1,0 +1,4 @@
+scenarioId,scenarioName,plannerStatus,evaluationStatus,passed,pathLength,finalPositionError,finalHeadingError,maxTimeMatchedXYError,timeWeightedXYRMSE,maxGeometricPathDeviation,maxSteering,maxAbsCurvature,minTurningRadius,vehicleMinTurningRadius
+nominal,Standard Parking,feasible,pass,1,7.03186375123977,0.00624017167639176,1.17658632584775e-05,0.02861201250193,0.0188732138673963,0.0134890790480848,0.610666618153001,0.259226510289339,3.85763014316644,3.85599961820371
+tight,Tight Parking,not_found,not_evaluated,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,3.85599961820371
+changedStart,Changed Start Pose,feasible,pass,1,6.9434405759694,0.000404795097749777,3.54776352948802e-06,0.0274925265314129,0.0156992876529921,0.00651915650710671,0.610786588549564,0.25929271623427,3.85664516351668,3.85599961820371
