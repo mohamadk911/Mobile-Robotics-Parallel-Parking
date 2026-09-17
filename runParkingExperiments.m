@@ -1,5 +1,5 @@
 function results = runParkingExperiments(outputDirectory, overwrite)
-%runParkingExperiments Reproduce the three accepted Step 10 experiments.
+%runParkingExperiments Reproduce the three Step 10 parking scenarios.
 % R = runParkingExperiments() writes to results/step10 beside this function.
 % R = runParkingExperiments(FOLDER) selects an output folder, independent of
 % the current workspace/directory. R = runParkingExperiments(FOLDER,true)
@@ -129,7 +129,7 @@ function results = runParkingExperiments(outputDirectory, overwrite)
     fprintf(fid,'Evaluation: %s | passed: %d\n', ...
         tight.evaluation.status,tight.evaluation.passed);
     fprintf(fid,['No accepted trajectory or simulation. Unavailable metrics are NaN.\n', ...
-        'not_found describes the selected bounded two-cubic search; it does not prove physical impossibility.\n']);
+        'not_found describes the selected bounded two-reverse-cubic search; it does not prove physical impossibility.\n']);
     clear cleanup
     writetable(summary,fullfile(outputDirectory,'scenario_summary.csv'));
     save(fullfile(outputDirectory,'parking_experiments.mat'),'results');

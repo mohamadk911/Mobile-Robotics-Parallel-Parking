@@ -3,4 +3,4 @@ Planner: not_found
 No validated path found in this two-reverse-cubic family and bounded multistart search; this is not proof of physical impossibility.
 Evaluation: not_evaluated | passed: 0
 No accepted trajectory or simulation. Unavailable metrics are NaN.
-not_found describes the selected bounded two-cubic search; it does not prove physical impossibility.
+not_found describes the selected bounded two-reverse-cubic search; it does not prove physical impossibility.
